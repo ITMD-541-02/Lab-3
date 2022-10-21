@@ -1,3 +1,14 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif !important;
+}
+
+/*Code from W3Schools for the slider*/
+
 .slidecontainer {
     width: 100%;
     /* Width of the outside container */
@@ -6,20 +17,13 @@
 /* The slider itself */
 .slider {
     -webkit-appearance: none;
-    /* Override default CSS styles */
-    appearance: none;
-    width: 100%;
-    /* Full-width */
-    height: 25px;
-    /* Specified height */
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;
     background: #d3d3d3;
-    /* Grey background */
     outline: none;
-    /* Remove outline */
     opacity: 0.7;
-    /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s;
-    /* 0.2 seconds transition on hover */
     transition: opacity .2s;
 }
 
@@ -32,25 +36,59 @@
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
-    /* Override default look */
     appearance: none;
     width: 25px;
-    /* Set a specific slider handle width */
     height: 25px;
-    /* Slider handle height */
+    border-radius: 50%;
     background: #04AA6D;
-    /* Green background */
     cursor: pointer;
-    /* Cursor on hover */
 }
 
 .slider::-moz-range-thumb {
     width: 25px;
-    /* Set a specific slider handle width */
     height: 25px;
-    /* Slider handle height */
+    border-radius: 50%;
     background: #04AA6D;
-    /* Green background */
     cursor: pointer;
-    /* Cursor on hover */
+}
+
+/* End of slider CSS from W3Schools */
+
+.form {
+    width: 40%;
+    margin: 20% auto;
+}
+
+#form,
+ol {
+    width: 100%;
+    height: 12em;
+    background-color: #04AA6D;
+    padding: 20px 20px 30px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.labels {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1em !important;
+}
+
+h1 {
+    font-size: 2em !important;
+    font-weight: 900 !important;
+    padding: 0 0 20px !important;
 }
