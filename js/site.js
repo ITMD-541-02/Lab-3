@@ -6,3 +6,6 @@ output.innerHTML = slider.value; // Display the default slider value
 slider.oninput = function () {
     output.innerHTML = this.value;
 }
+
+const bill = document.getElementById('Bill');
+const grandTotal = document.getElementById('total');
