@@ -11,6 +11,7 @@ html {
 body {
     width: 100%;
     height: 100%;
+    background-color: #101010;
 }
 
 /*Code from W3Schools for the slider*/
@@ -53,7 +54,7 @@ body {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #04AA6D;
+    background: #1a92d8;
     cursor: pointer;
 }
 
@@ -61,14 +62,14 @@ body {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #04AA6D;
+    background: #1a92d8;
     cursor: pointer;
 }
 
 /* End of slider CSS from W3Schools */
 
 .form {
-    background-color: #1d90d3;
+    background-color: #e91e39;
     width: 30%;
     height: 40%;
     margin: 15% auto;
@@ -114,12 +115,14 @@ input {
 input[name="amount"],
 input[name="total"],
 input[name="percentage"] {
-    background-color: #d8ae25;
+    background-color: #302f2f;
     border-radius: 10px;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: hidden;
+    color: #d3d3d3;
+    outline: 1px solid white;
 }
 
 input[name="total"] {
@@ -154,7 +157,7 @@ h1 {
 
     .form {
         width: 60%;
-        height: 50%;
+        height: 45%;
         right: 13%;
         margin-top: 40%;
     }
@@ -181,5 +184,9 @@ h1 {
     #tipLabel {
         width: 20%;
         text-align: center;
+    }
+
+    h2 {
+        padding: 0 0 10px !important;
     }
 }
