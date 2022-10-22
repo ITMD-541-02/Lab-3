@@ -16,24 +16,27 @@
         <h1>Quick Tip Calculator</h1>
         <form action="#">
             <div>
-                <label for="Bill">Bill Total: </label>
-                <input type="Bill" name="Bill" id="Bill" pattern="^.+@.+$">
+                <label for="bill">Bill Total: </label>
+                <input type="bill" name="bill" id="bill" pattern="^.+@.+$">
             </div>
             <div class="slidecontainer">
-                <label for="Bill">Tip: </label>
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                <p>Tip Percentage: <span id="demo"></span></p>
+                <label for="tip">Tip: </label>
+                <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div>
+                <label for="percentage">Tip Percentage: <input type="textbox" id="percentage" value="0%"
+                        disabled></label>
             </div>
             <div>
                 <label for="amount">Tip Amount: </label>
-                <input type="amount" name="amount" id="amount" pattern="^.+@.+$">
+                <input type="amount" name="amount" id="amount" disabled>
             </div>
             <div>
-                <label for="total">Grand Total: </label>
-                <input type="total" name="total" id="total" pattern="^.+@.+$" disabled>
+                <label for="total">Grand Total: <input type="textbox" id="total" value="$0" disabled></label>
             </div>
         </form>
     </div>
+    <span id="demo"></span>
     <script src="js/site.js"></script>
 </body>
 

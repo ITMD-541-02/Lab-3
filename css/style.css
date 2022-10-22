@@ -17,8 +17,8 @@ html {
 /* The slider itself */
 .slider {
     -webkit-appearance: none;
-    width: 50%;
-    height: 15px;
+    width: 90%;
+    height: 10px;
     border-radius: 5px;
     background: #d3d3d3;
     outline: none;
@@ -31,6 +31,10 @@ html {
 .slider:hover {
     opacity: 1;
     /* Fully shown on mouse-over */
+}
+
+#demo {
+    color: white;
 }
 
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
