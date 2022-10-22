@@ -11,7 +11,6 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-image: /images
 }
 
 /*Code from W3Schools for the slider*/
@@ -44,7 +43,7 @@ body {
 }
 
 #demo {
-    color: white;
+    display: none;
 }
 
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
