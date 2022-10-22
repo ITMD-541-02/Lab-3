@@ -17,21 +17,21 @@
         <form action="#">
             <div>
                 <label for="bill">Bill Total: </label>
-                <input type='text' name="bill" id="bill" value="0" onkeypress="isInputNumber(event)">
+                <input type='text' name="bill" id="bill" value="0" onkeypress="">
             </div>
             <div class="slidecontainer">
-                <label for="tip">Tip: </label>
+                <label for="tip" id="tipLabel">Tip: </label>
                 <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
             </div>
-            <div>
+            <div class="double">
                 <label for="percentage">Tip Percentage: <input type="textbox" id="percentage" value="0%"
                         disabled></label>
             </div>
-            <div>
+            <div class="double">
                 <label for="amount">Tip Amount: </label>
                 <input type="amount" name="amount" id="amount" value="$0" disabled>
             </div>
-            <div>
+            <div class="double">
                 <label for="total">Grand Total: <input type="textbox" id="total" value="$0" disabled></label>
             </div>
         </form>
