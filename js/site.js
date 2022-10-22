@@ -15,3 +15,14 @@ slider.oninput = function () {
     document.getElementById("amount").value = "$" + amount;
     document.getElementById("total").value = "$" + grandTotal;
 }
+
+//This function prevents from user typing letters per keystroke
+function isInputNumber(evt) {
+
+    var ch = String.fromCharCode(evt.which);
+
+    if (!(/[0-9]/.test(ch))) {
+        evt.preventDefault();
+    }
+
+}

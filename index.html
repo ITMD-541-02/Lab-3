@@ -17,7 +17,7 @@
         <form action="#">
             <div>
                 <label for="bill">Bill Total: </label>
-                <input type="bill" name="bill" id="bill" pattern="^.+@.+$">
+                <input type='text' name="bill" id="bill" value="0" onkeypress="isInputNumber(event)">
             </div>
             <div class="slidecontainer">
                 <label for="tip">Tip: </label>
@@ -29,7 +29,7 @@
             </div>
             <div>
                 <label for="amount">Tip Amount: </label>
-                <input type="amount" name="amount" id="amount" disabled>
+                <input type="amount" name="amount" id="amount" value="$0" disabled>
             </div>
             <div>
                 <label for="total">Grand Total: <input type="textbox" id="total" value="$0" disabled></label>
