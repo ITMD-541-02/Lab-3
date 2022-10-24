@@ -191,4 +191,13 @@ h1 {
     h2 {
         padding: 0 0 10px !important;
     }
+
+    input[name="amount"],
+    input[name="total"],
+    input[name="percentage"] {
+        background-color: #2f302f;
+        border-radius: 10px;
+        color: #d3d3d3;
+        outline: 2px solid white;
+    }
 }
