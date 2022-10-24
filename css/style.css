@@ -116,14 +116,14 @@ input {
 input[name="amount"],
 input[name="total"],
 input[name="percentage"] {
-    background-color: #302f2f !important;
-    border-radius: 10px !important;
-    border-top-style: hidden !important;
-    border-right-style: hidden !important;
-    border-left-style: hidden !important;
-    border-bottom-style: hidden !important;
-    color: #d3d3d3 !important;
-    outline: 1px solid white !important;
+    background-color: #302f2f;
+    border-radius: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    color: #d3d3d3;
+    outline: 1px solid white;
 }
 
 input[name="total"] {
