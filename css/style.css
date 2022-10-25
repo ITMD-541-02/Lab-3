@@ -201,3 +201,24 @@ h1 {
         outline: 2px solid white;
     }
 }
+
+@media screen and (max-width: 850px) and (orientation: landscape) {
+
+    .form {
+        width: 70%;
+        height: 80%;
+        right: 11%;
+        margin-top: 7%;
+    }
+
+    form {
+        right: 23%;
+    }
+
+    input {
+        width: 60%;
+        height: 25px;
+        font-size: 20px !important;
+    }
+
+}
